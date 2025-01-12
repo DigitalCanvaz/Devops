@@ -1,0 +1,5 @@
+.page-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns children (button) to the right */
+    padding: 1rem; /* Optional for spacing */
+}

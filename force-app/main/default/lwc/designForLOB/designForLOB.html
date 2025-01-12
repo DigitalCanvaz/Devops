@@ -1,0 +1,28 @@
+<!-- <template>
+    <lightning-input type="text" variant="standard" name="Name" label="label" placeholder="Type Name here..." ></lightning-input>
+    <lightning-input type="Email" variant="standard" name="name" label="Email" placeholder="Type Email here..." ></lightning-input>
+    <lightning-input type="Phone" variant="standard" name="name" label="Phone" placeholder="Type Phone here..." ></lightning-input>
+
+    <div class="page-container">
+        <lightning-button variant="brand" label="Save" title="Save" type="submit"></lightning-button>
+    </div>
+</template> -->
+
+<!-- letterMail.html -->
+<template>
+  <div>
+    <div>
+      <label for="toAddress">TO Address:</label>
+      <input type="text" id="toAddress" value={toAddress} oninput={handleToAddressChange} />
+    </div>
+    <div>
+      <label for="fromAddress">FROM Address:</label>
+      <input type="text" id="fromAddress" value={fromAddress} oninput={handleFromAddressChange} />
+    </div>
+    <div>
+      <label for="search">Search:</label>
+      <input type="text" id="search" value={search} oninput={handleSearchChange} />
+    </div>
+    <button onclick={handleSendMail}>Send Mail</button>
+  </div>
+</template>
