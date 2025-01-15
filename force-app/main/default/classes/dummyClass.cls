@@ -20,6 +20,6 @@ public with sharing class DummyClass {
     }
 
     public string intials(string firstName, string lastName){
-        return firstName.substring(0,1) lastName.substring(0,1);
+        return firstName.substring(0,1) + '.' + lastName.substring(0,1) + '.';
     }
 }
